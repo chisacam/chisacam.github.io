@@ -111,7 +111,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "밥은 먹고 다니냐? 라고 하면 네 라고 대답할 수 있도록 노력하는 사람"
   location         : "South Korea"
-  email            : "dladsds123@gmail.com"
+  email            : # "dladsds123@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
