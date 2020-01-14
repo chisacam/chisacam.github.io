@@ -25,10 +25,14 @@ Git 또한 터미널로 사용하는 대신 GUI로 사용할 수 있도록 만�
 
 1. 먼저 [소스트리 설치프로그램](https://www.sourcetreeapp.com/)을 다운로드 합니다. 
 2. 다운로드된 설치 프로그램을 실행합니다.
-3. ![](https://chisacam.github.io/assets/image/ST_1.png)
-    다음과 같이 Bitbucket 계정으로 로그인 합니다. 없으면 새로 가입해야 합니다.
-4. ![](https://chisacam.github.io/assets/image/ST_2.png)
-    필요한 도구 설치는 체크해주고, 상세옵션은 필요에 따라 체크하면 됩니다.
+3. 다음과 같이 Bitbucket 계정으로 로그인 합니다. 없으면 새로 가입해야 합니다.
+
+    ![](https://chisacam.github.io/assets/image/ST_1.png)
+
+4. 필요한 도구 설치는 체크해주고, 상세옵션은 필요에 따라 체크하면 됩니다.
+
+    ![](https://chisacam.github.io/assets/image/ST_2.png)
+    
 
 ## 2. 계정 연동
 
@@ -36,9 +40,9 @@ git remote 저장소로 bitbucket을 사용하는 중이 아니라면, github나
 
 이 글에서는 GitLab를 기준으로 설명하도록 하겠습니다.
 
-![](https://chisacam.github.io/assets/image/ST_4.png)
-
 도구-옵션에서 인증탭-추가를 클릭하면 다음과 같이 계정을 추가할 수 있는 팝업이 뜹니다.
+
+![](https://chisacam.github.io/assets/image/ST_3.png)
 
 기본 gitlab 저장소를 쓰고있다면 그냥 gitlab을 선택하면 되고, 자체 호스팅 주소를 가지고있다면 해당 주소를 기입해줍니다.
 
@@ -58,6 +62,10 @@ local이 현재 소스트리로 관리하는 git 디렉토리 목록입니다.
 ## 5. 실행중 모습
 
 ![](https://chisacam.github.io/assets/image/ST_5.png)
+
+왼쪽에는 브랜치와 저장소 목록이, 중앙에는 커밋로그와 브랜치 그래픽, 그리고 하단에는 커밋로그의 상세정보가 표시됩니다.
+
+상단에 있는 커밋, pull, push, 패치, 브랜치 등의 메뉴가 각각 Git의 메뉴들과 동일하게 동작합니다. 원하는 브랜치를 선택하고 그저 버튼만 클릭하면 됩니다. (아쉽게도 커밋로그까지 소스트리가 써주진 않습니다 ^^)
 
 결론
 ===
